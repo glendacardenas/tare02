@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TAREA 02</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+	<header>
+		<h1>Sign Up</h1>
+	</header>
+	<main>
+		<section>
+			
+			<form>
+				<label for="nombres " required>First name</label>
+                <br>
+				<input 
+					type="text" 
+					id="nombres"
+					placeholder="Ej. John"
+					required
+					minlength="6"
+					maxlength="20"
+				>
+				<br>
+				<br>
+				<label for="edad" required>Age</label>
+                <br>
+				<input
+					type="number"
+					placeholder="Ej. 18"
+					id="edad"
+					min="0"
+					max="120"
+				>
+                <br>
+				<br>
+                <label for="income">Income</label>
+                <br>
+				<input 
+					type="number" 
+					id="income"
+					placeholder="Ej. 1000"
+					required
+					minlength="6"
+					maxlength="20"
+				>
+				<br>
+				<br>
+				<label>Gender</label>
+				<br>
+				<input 
+					type="radio" 
+					name="genero"
+					value="M"
+				>Male
+				<input 
+					type="radio" 
+					name="genero"
+					value="M"
+				>Female
+				<input 
+					type="radio" 
+					name="genero"
+					value="F"
+				>Trans
+                <br>
+                <br>
+
+                <label > More Info</label>
+                <br>
+				<textarea cols="20" rows="2"></textarea>
+				<br>
+
+				<label>Plan</label>
+                <br>
+				<select>
+					<option selected enable>
+						Select Plan
+					</option>
+					<option value="Anual">Anual</option>
+					<option value="Semestral">Semestral</option>
+					<option value="Trimestral">Trimestral</option>
+					<option value="Mensual">Mensual</option>
+					<option value="Quincenal">Quincenal</option>
+				</select>
+				
+                <br>
+                
+                <br>
+                <input 
+					type="radio" 
+					name="suscripcion"
+					value="sc"
+				>Subscribe to Newsletter
+                <br>
+                <br>
+							
+				<br>
+               
+				<button>Update</button>
+                <!-- <input type="submit" value="Update"> -->
+				<!-- <input type="reset" value="Clear"> -->
+				
+		</section>
+	</main>
+</body>
+</html>
